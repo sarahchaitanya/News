@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #544c4c;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #ee3d0c;
+  padding: 10px 20px;
+  color: white;
+}
+/* Add this to your styles.css file */
+.logo-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintains the aspect ratio */
+  margin-top: 10px;
+}
+/* Remove the default list styling */
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* This makes the list items display in a row */
+  margin-left: 200px;
+}
+
+/* Display list items horizontally */
+.main-nav ul li {
+  margin-left: 30px; /* Adjust the spacing as needed */
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: rgb(130, 48, 48); /* Or any other color you prefer */
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  size: 10px;
+}
+
+.language-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 200px;
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 20px;
+}
+
+.language-nav li,
+.main-nav li {
+  margin: 0 10px;
+}
+
+.language-nav a,
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.language-nav a:hover,
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav {
+  background-color: #eac8c8;
+}
+
+.main-nav ul {
+  padding: 10px 0;
+}
+
+.main-nav li {
+  margin: 0 15px;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  display: flex; /* Display list items in a row */
+  margin-top: 10px;
+}
+
+.nav-list li {
+  margin-right: 0px; /* Adjust spacing between nav items */
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white; /* Change to your preferred color */
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  color: #cb080b;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  /* gap: 20px; Add space between articles */
+}
+.main-title {
+  padding: 10px 0; /* Add specific padding to the h1 element */
+  margin: 0;
+}
+.main-article {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 100px; /* Add space between articles */
+}
+.main-article h1 {
+  border-bottom: 2px solid #d4365b;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* .main-article article {
+  margin-bottom: 20px;
+} */
+.main-article article {
+  width: 200px; /* Fixed width */
+  margin: 10px; /* Space between articles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #4caf50; */
+}
+
+/* .main-article img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+} */
+
+.main-article h2 {
+  margin: 10px 0 0 0;
+  color: #6b091b;
+}
+.article-image {
+  width: 300px; /* Fixed width */
+  height: 250px; /* Fixed height */
+  /* object-fit: cover; Maintain aspect ratio and cover the area */
+}
+.text-container {
+  width: 300px;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+.text-container h2 {
+  margin: 0;
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.2; /* Adjust line height as needed */
+}
+.top-headlines {
+  width: 300px;
+  padding: 20px;
+}
+
+.top-headlines h2 {
+  margin-top: 0px;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9; /* Add background for better visibility */
+  padding: 10px; /* Add padding for spacing within headlines */
+  border: 1px solid #ddd; /* Add border for better separation */
+  margin-bottom: 20px; /* Space between headlines */
+  text-decoration: none;
+}
+.headline :hover{
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9; /* Add background for better visibility */
+  padding: 10px; /* Add padding for spacing within headlines */
+  border: 1px solid #ddd; /* Add border for better separation */
+  margin-bottom: 20px; /* Space between headlines */
+  text-decoration: underline;
+}
+.headline1 {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9; /* Add background for better visibility */
+  padding: 10px; /* Add padding for spacing within headlines */
+  border: 1px solid #ddd; /* Add border for better separation */
+  margin-bottom: 20px; /* Space between headlines */
+  width: 200px;
+  height: 50px;
+}
+
+.headline-image {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+.sidebar-list {
+  margin-top: 20px; /* Adjust the value as needed */
+}
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 300px;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
